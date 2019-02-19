@@ -1,0 +1,2 @@
+# salt
+salt configure tree
