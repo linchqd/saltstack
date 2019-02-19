@@ -1,2 +1,2 @@
-# salt
+# saltstack
 salt configure tree
