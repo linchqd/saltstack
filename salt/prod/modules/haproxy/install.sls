@@ -12,7 +12,7 @@ haproxy_install:
     - name: cd /usr/local/src/ && tar zxf haproxy-1.6.3.tar.gz && cd haproxy-1.6.3 && make TARGET=linux2628 PREFIX=/usr/local/haproxy-1.6.3 && make install PREFIX=/usr/local/haproxy-1.6.3 && ln -s /usr/local/haproxy-1.6.3 /usr/local/haproxy
     - unless: test -L /usr/local/haproxy
     - require:
-      - pkg: requirements_pkg
+      - pkg: haproxy-requirements-pkg
       - file: haproxy_install
 
 haproxy-init:

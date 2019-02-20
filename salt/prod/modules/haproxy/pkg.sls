@@ -1,4 +1,4 @@
-requirements_pkg:
+haproxy-requirements-pkg:
   pkg.installed:
     - names:
       - gcc
