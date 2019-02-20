@@ -1,6 +1,6 @@
 include:
   - modules.memcached.install
-  - modules.user
+  - modules.memcached.user
 
 memcached-service:
   cmd.run:
