@@ -1,0 +1,27 @@
+php-requirements-pkg:
+  pkg.installed:
+    - names:
+      - gcc
+      - autoconf
+      - gcc-c++
+      - bzip2
+      - bzip2-devel
+      - libjpeg-turbo
+      - libjpeg-turbo-devel
+      - libpng
+      - libpng-devel
+      - freetype
+      - freetype-devel
+      - libxml2
+      - libxml2-devel
+      - libcurl
+      - libcurl-devel
+      - libxslt
+      - libxslt-devel
+      - openssl
+      - openssl-devel
+      - gmp
+      - gmp-devel
+      - readline
+      - readline-devel
+      - systemd-devel
