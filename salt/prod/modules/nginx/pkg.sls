@@ -1,0 +1,28 @@
+nginx-requirements-pkg:
+  pkg.installed:
+    - names:
+      - gcc
+      - gcc-c++
+      - glibc
+      - make
+      - autoconf
+      - libjpeg-turbo
+      - libjpeg-turbo-devel
+      - libpng
+      - libpng-devel
+      - freetype
+      - freetype-devel
+      - libxml2
+      - libxml2-devel
+      - zlib
+      - zlib-devel
+      - libcurl
+      - libcurl-devel
+      - automake
+      - openssl
+      - openssl-devel
+      - swig
+      - libxslt
+      - libxslt-devel
+      - gd-devel
+      - GeoIP-devel
