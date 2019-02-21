@@ -11,7 +11,6 @@ haproxy-service:
   service.running:
     - name: haproxy
     - enable: True
-    - reload: True
     - require:
       - cmd: haproxy_install
       - cmd: haproxy-init
