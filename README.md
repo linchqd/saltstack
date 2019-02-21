@@ -4,7 +4,7 @@ salt configure tree
 # 模块列表:
   # haproxy
     版本: haproxy-1.6.3.tar.gz
-    https://src.fedoraproject.org/repo/pkgs/haproxy/haproxy-1.6.3.tar.gz/3362d1e268c78155c2474cb73e7f03f9/haproxy-1.6.3.tar.gz
+  https://src.fedoraproject.org/repo/pkgs/haproxy/haproxy-1.6.3.tar.gz/3362d1e268c78155c2474cb73e7f03f9/haproxy-1.6.3.tar.gz
   # keepalived
     版本: keepalived-1.2.17.tar.gz
     http://www.keepalived.org/software/keepalived-1.2.17.tar.gz
