@@ -17,7 +17,7 @@
   # memcached
     版本: memcached-1.5.12.tar.gz
     http://memcached.org/files/memcached-1.5.12.tar.gz
-  php扩展
+  # php扩展
     # memcache
       https://github.com/websupport-sk/pecl-memcache/archive/php7.zip
     # redis
